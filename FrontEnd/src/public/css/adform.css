@@ -1,0 +1,85 @@
+.bd-admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: white;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.button:hover {
+  background: #1a83ff;
+}
+
+.data {
+  white-space: pre-line;
+  vertical-align: bottom;
+  tab-size: 80;
+  margin-left: 250px;
+  margin-right: 250px;
+  white-space: pre-line;
+}
+
+.button-mid {
+  margin: 0 50px 0 50px;
+}
+
+.add-db-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 3% 20%;
+  font-size: 30px;
+}
+
+.update-db-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 0% 20%;
+  font-size: 30px;
+}
+
+.del-db-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 18% 20%;
+  font-size: 30px;
+}
+
+.add-ex-css {
+  align-items: center;
+  justify-content: center;
+  margin: 0% 20% 13% 20%;
+  font-size: 30px;
+}
+
+.update-ex-css {
+  align-items: center;
+  justify-content: center;
+  margin: 0% 20% 0% 20%;
+  font-size: 30px;
+}
+
+.del-ex-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 16% 20%;
+  font-size: 30px;
+}
+
+.font-css-admin {
+  font-size: 20px;
+}
+
+.aline {
+  border-width: 0;
+  height: 5px;
+  color: lightgreen;
+  background-color: lightgreen;
+}

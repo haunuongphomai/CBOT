@@ -1,0 +1,187 @@
+.NavBar {
+  height: 80px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  background-color: black;
+  width: 230px;
+  height: 89.8vh;
+  transition: 500ms;
+  overflow-y: auto;
+}
+
+.nav-content {
+  width: 100%;
+  height: 89.8vh;
+  transition: 500ms;
+  overflow-y: scroll;
+}
+
+.button2 {
+  background-color: black;
+  margin-top: 20px;
+  display: block;
+}
+
+.button2:hover {
+  background-color: rgb(250, 137, 0);
+  padding: 10px 0 10px 0;
+  transition: 400ms;
+  width: 101%;
+}
+
+.content {
+  margin-left: 350px;
+  margin-top: -45%;
+}
+
+.logo {
+  top: 16px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 80px;
+}
+
+.heading-Text {
+  font-size: 30px;
+  left: 230px;
+  top: 16px;
+  font-weight: bold;
+  position: absolute;
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.heading-Text:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.heading-Text1 {
+  font-size: 30px;
+  left: 340px;
+  top: 16px;
+  font-weight: bold;
+  position: absolute;
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.heading-Text1:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.heading-Text2 {
+  font-size: 30px;
+  left: 519px;
+  top: 16px;
+  font-weight: bold;
+  position: absolute;
+  color: black;
+  border: none;
+  background-color: transparent;
+}
+
+.heading-Text2:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.heading-User {
+  font-size: 30px;
+  margin-top: 16px;
+  right: 80px;
+  position: absolute;
+  color: black;
+}
+
+.textfield {
+  margin-left: 25px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+.yourAnswer {
+  font-size: 25px;
+  color: orange;
+  margin-left: 0px;
+}
+
+.button {
+  outline: none;
+}
+
+.sp-submit {
+  margin-left: 10px;
+}
+
+.form-css {
+  white-space: pre-wrap;
+  font-size: 20px;
+  margin-right: 130px;
+  /* \&t == tab*/
+  /* \&n == new line*/
+}
+
+.aline {
+  border-width: 0;
+  height: 5px;
+  color: lightgreen;
+  background-color: lightgreen;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.tutorial {
+  padding-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.button2 {
+  padding: 0 0 0 50px;
+  color: white;
+}
+
+.button2:focus {
+  outline: none;
+}
+
+ul.nav-menu-items {
+  padding: 0;
+}
+
+.theory {
+  background-color: #ffc0c7;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.dcl {
+  background-color: #96d4d4;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.exp {
+  background-color: #e7e9eb;
+  padding: 15px;
+  border-radius: 5px;
+}
